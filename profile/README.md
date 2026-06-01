@@ -58,8 +58,9 @@ Superfield ADE replaces fragmented SaaS stacks with applications that are:
 -   **Self-improving** --- the agent has live access to logs and telemetry,
     and enters hardening mode when there is nothing left to build
 
-The reference implementation uses Bun, React, Tailwind,
-and SQLite/PostgreSQL — no Docker, no ORMs, no SaaS auth vendors.
+The reference implementation is Rust-first — Rust on the backend with a
+Rust + WebAssembly client (via [Wham](https://github.com/superfield-ai/wham))
+and SQLite/PostgreSQL for storage — no Docker, no ORMs, no SaaS auth vendors.
 
 ### [Alien Stack](https://github.com/superfield-ai/alien-stack)
 
