@@ -21,7 +21,7 @@ infrastructure**, and **post-human development models**.
 
 | **PLATFORM** | **ARCHITECTURE** |
 |:---:|:---:|
-| [![Superfield IDE](https://img.shields.io/badge/SUPERFIELD_IDE-Supergreenfield-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/superfield-ai)<br><br>The **Supergreenfield Platform**.<br>Build entirely new applications<br>with autonomous AI systems. | [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/superfield-ai/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. |
+| [![Superfield ADE](https://img.shields.io/badge/SUPERFIELD_ADE-Agent_Dev_Env-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/superfield-ai)<br><br>The **Agent Development Environment**.<br>Build entirely new applications<br>with autonomous AI systems. | [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/superfield-ai/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. |
 | **MEMORY** | **FACTORY** |
 | [![Facet](https://img.shields.io/badge/FACET-Context_Layer-ff00ff?style=for-the-badge&logo=rust)](https://github.com/superfield-ai/facet)<br><br>The **Memory Layer** for AI systems.<br>Separates persistent knowledge<br>from model inference. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/superfield-ai/nightshift)<br><br>The **Autonomous Factory**.<br>Agents collaborate on development<br>tasks around the clock. |
 | **BROWSER** | **INFERENCE** |
@@ -31,24 +31,24 @@ infrastructure**, and **post-human development models**.
 
 ---
 
-### Superfield IDE
+### Superfield ADE: Agent Development Environment
 
 ```text
-   _____                       _____      __    __   ________  ______
-  / ___/__  ______  ___  _____/ __(_)__  / /___/ /  /  _/ __ \/ ____/
-  \__ \/ / / / __ \/ _ \/ ___/ /_/ / _ \/ / __  /   / // / / / __/
- ___/ / /_/ / /_/ /  __/ /  / __/ /  __/ / /_/ /  _/ // /_/ / /___
-/____/\__,_/ .___/\___/_/  /_/ /_/\___/_/\__,_/  /___/_____/_____/
+   _____                       _____      __    __   ___    ____  ______
+  / ___/__  ______  ___  _____/ __(_)__  / /___/ /  /   |  / __ \/ ____/
+  \__ \/ / / / __ \/ _ \/ ___/ /_/ / _ \/ / __  /  / /| | / / / / __/
+ ___/ / /_/ / /_/ /  __/ /  / __/ /  __/ / /_/ /  / ___ |/ /_/ / /___
+/____/\__,_/ .___/\___/_/  /_/ /_/\___/_/\__,_/  /_/  |_/_____/_____/
           /_/
 ```
 
-Superfield IDE is a method, toolset, and reference implementation for building
+Superfield ADE is a method, toolset, and reference implementation for building
 **supergreenfield applications** — software designed from the ground up
 for autonomous AI development.
 
 The core premise: *N* smart AIs across *N* vendor data silos will always
 produce worse outcomes than a single AI over fused, coherent, owned data.
-Superfield IDE replaces fragmented SaaS stacks with applications that are:
+Superfield ADE replaces fragmented SaaS stacks with applications that are:
 
 -   **Fused** --- one AI over coherent, owned data
 -   **Tree-shaken** --- only the 5% of features you actually use
