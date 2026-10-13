@@ -59,7 +59,7 @@ Superfield ADE replaces fragmented SaaS stacks with applications that are:
     and enters hardening mode when there is nothing left to build
 
 The reference implementation is Rust-first — Rust on the backend with a
-Rust + WebAssembly client (via [Wham](https://github.com/superfield-ai/wham))
+Rust + WebAssembly client (via Wham)
 and SQLite/PostgreSQL for storage — no Docker, no ORMs, no SaaS auth vendors.
 
 ### [Alien Stack](https://github.com/superfield-ai/alien-stack)
