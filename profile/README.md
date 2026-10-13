@@ -23,11 +23,11 @@ infrastructure**, and **post-human development models**.
 
 | **PLATFORM** | **ARCHITECTURE** |
 |:---:|:---:|
-| [![Superfield ADE](https://img.shields.io/badge/SUPERFIELD_ADE-Agent_Dev_Env-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/superfield-ai)<br><br>The **Agent Development Environment**.<br>Build entirely new applications<br>with autonomous AI systems. | [![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)](https://github.com/superfield-ai/alien-stack)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. |
+| [![Superfield ADE](https://img.shields.io/badge/SUPERFIELD_ADE-Agent_Dev_Env-7b2fff?style=for-the-badge&logo=rocket)](https://github.com/superfield-ai)<br><br>The **Agent Development Environment**.<br>Build entirely new applications<br>with autonomous AI systems. | ![Alien Stack](https://img.shields.io/badge/ALIEN_STACK-Post--Human_Arch-00ff88?style=for-the-badge&logo=linux)<br><br>The **Post-Human Stack**.<br>Software ecosystems designed<br>for AI authorship and evolution. |
 | **MEMORY** | **FACTORY** |
-| [![Facet](https://img.shields.io/badge/FACET-Context_Layer-ff00ff?style=for-the-badge&logo=rust)](https://github.com/superfield-ai/facet)<br><br>The **Memory Layer** for AI systems.<br>Separates persistent knowledge<br>from model inference. | [![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)](https://github.com/superfield-ai/nightshift)<br><br>The **Autonomous Factory**.<br>Agents collaborate on development<br>tasks around the clock. |
+| ![Facet](https://img.shields.io/badge/FACET-Context_Layer-ff00ff?style=for-the-badge&logo=rust)<br><br>The **Memory Layer** for AI systems.<br>Separates persistent knowledge<br>from model inference. | ![Nightshift](https://img.shields.io/badge/NIGHTSHIFT-Agent_Ops-00ffff?style=for-the-badge&logo=github)<br><br>The **Autonomous Factory**.<br>Agents collaborate on development<br>tasks around the clock. |
 | **BROWSER** | **INFERENCE** |
-| [![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)](https://github.com/superfield-ai/robert-browser)<br><br>The **AI-Native Browser**.<br>Agents interact with the web<br>and integrate external systems. | [![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)](https://github.com/superfield-ai/inferno)<br><br>The **Inference Platform**.<br>High-performance, reliable LLM<br>deployment for autonomous systems. |
+| ![Robert](https://img.shields.io/badge/ROBERT-Agent_Browser-ffff00?style=for-the-badge&logo=google-chrome)<br><br>The **AI-Native Browser**.<br>Agents interact with the web<br>and integrate external systems. | ![Inferno](https://img.shields.io/badge/INFERNO-Inference_Cloud-ff4400?style=for-the-badge&logo=rust)<br><br>The **Inference Platform**.<br>High-performance, reliable LLM<br>deployment for autonomous systems. |
 
 </div>
 
@@ -62,7 +62,7 @@ The reference implementation is Rust-first — Rust on the backend with a
 Rust + WebAssembly client (via Wham)
 and SQLite/PostgreSQL for storage — no Docker, no ORMs, no SaaS auth vendors.
 
-### [Alien Stack](https://github.com/superfield-ai/alien-stack)
+### Alien Stack
 
 ```text
   _   _ _             ___ _           _
@@ -92,7 +92,7 @@ Demos show agent-authored LLVM IR **outperforming equivalent Rust Hyper
 servers** on TechEmpower plaintext benchmarks — built in under 15 minutes,
 no internet searches, no build tool setup.
 
-### [Inferno](https://github.com/superfield-ai/inferno)
+### Inferno
 
 ```text
  _ __ _ ____ ____ ____ __ _ ____
@@ -110,7 +110,7 @@ requests per second, under 1KB memory per concurrent connection.
 The **Enterprise Edition** adds Governator AI — automatic GPU profiling,
 optimal model placement, and real-time load distribution adjustments.
 
-### [Nightshift](https://github.com/superfield-ai/nightshift)
+### Nightshift
 
 ```text
    _  ___      __   __      __   _ _____
@@ -141,7 +141,7 @@ hooks into any repo) or a **service** (standalone CLI/TUI managing
 multiple agents, API costs, and background runs). Supports Claude Code,
 Cursor, Gemini CLI, and Codex.
 
-### [Facet](https://github.com/superfield-ai/facet)
+### Facet
 
 ```text
   ___            _
@@ -164,7 +164,7 @@ hierarchical memory tiers (hot/warm/cold), enabling features like
 Reactive Pruning — excluding stale documents from generation without
 deleting them.
 
-### [Robert](https://github.com/superfield-ai/robert-browser)
+### Robert
 
 ```text
  +-+-+-+-+-+-+
